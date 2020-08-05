@@ -1,0 +1,117 @@
+.abouthero {
+  background-image: url(../images/fix-index-hero.jpg);
+}
+
+.cakelove {
+  background-color: #c3bbac;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.cakelovelist {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #f2f2f2;
+  font-size: 2.25em;
+  line-height: 0.85em;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 80px;
+  height: auto;
+}
+
+p {
+  margin: 20px;
+}
+
+.iconpair {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #c3bbac;
+  font-size: 2em;
+  line-height: 0.85em;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.cakes {
+  height: 360px;
+  width: auto;
+}
+
+.hours p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+  color: #f2f2f2;
+}
+
+p span {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #f2f2f2;
+}
+
+.hours {
+  background-color: #8e5942;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media(min-width: 660px) {
+  #odd {
+    display: flex;
+    flex-direction: row;
+  }
+  .flexcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .cakelove {
+    width: 50%;
+    padding-top: 50px;
+    z-index: -1;
+  }
+  .other {
+    width: 50%;
+    padding-top: 50px;
+    z-index: -1;
+  }
+  .cakes {
+    width: 70%;
+  }
+  .in {
+    width: 30%;
+  }
+  .hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .hours p {
+    font-size: 30px;
+  }
+  p span {
+    font-size: 30px;
+  }
+}
+
+@media(min-width: 940px) {}
+  /* insert comment here */

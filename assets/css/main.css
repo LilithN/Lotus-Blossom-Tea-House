@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: #f2f2f2;
+  opacity: 0.9;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  z-index: 2;
+}
+
+nav img {
+  height: 3.125em;
+}
+
+nav p a {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #303030;
+  margin: 0.375em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav p {
+  margin: 3px;
+}
+
+nav p a:hover {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1em;
+  color: #d49b3c;
+  border-bottom: 0.3em solid #d49b30;
+  padding-bottom: 0.3em;
+  text-decoration: none;
+}
+
+.abouthero {
+  background-color: black;
+  background-size: cover;
+  height: 20.75em;
+  background-position: 50%;
+  margin: 0;
+  margin-bottom: -3.125em;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.1em;
+  color: #f2f2f2;
+  background-color: #d49b30;
+  text-align: center;
+  max-width: 242px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.56em;
+  color: #f2f2f2;
+}
+
+h2 a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.56em;
+  color: #f2f2f2;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h2 a:hover {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.56em;
+  color: #d49b30;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125em;
+  color: #8e5942;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: 'Lato Light', sans-serif;
+  font-size: 1.125em;
+  color: #8e5942;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #303030;
+  line-height: 1.6em;
+}
+
+p a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1em;
+  color: #be5f27;
+}
+
+p a:hover {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1em;
+  color: #d49b3c;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.customorder p {
+  color: #f2f2f2;
+  font-family: 'Oswald', sans-serif;
+}
+
+.customorder p a {
+  font-style: italic;
+  text-decoration: underline;
+  color: #f2f2f2;
+  font-size: 1.25em;
+}
+
+.customorder p a:hover {
+  color: #be5f27;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #be5f27;
+  text-align: center;
+  padding: 0.9375em;
+}
+
+.address {
+  text-align: center;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  color: #f2f2f2;
+  font-size: .9em;
+}
+
+footer p {
+  font-family: 'Oswald', sans-serif;
+  font-size: .9em;
+  color: #f2f2f2;
+}
+
+footer .logos {
+  margin: 0.625em;
+}
+
+.logos img {
+  margin: 0.3125em;
+}
+
+.fixlogo {
+  width: 9.0625em;
+  margin: auto;
+}
+
+.contact {
+  margin: auto;
+}
+
+@media(min-width: 660px) {
+  nav p {
+    margin: 2.375em;
+  }
+  nav img {
+    height: 5.125em;
+  }
+  .abouthero {
+    height: 28.75em;
+    margin-bottom: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  h1 {
+    margin-bottom: -50px;
+    overflow: visible;
+    z-index: 1;
+  }
+}
+
+@media(min-width: 940px) {
+  .maininfo {
+    margin-left: 15.625em;
+    margin-right: 15.625em;
+  }
+  .abouthero {
+    height: 55.75em;
+  }
+}
+/* insert comment here */

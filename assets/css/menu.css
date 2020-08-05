@@ -1,0 +1,142 @@
+.fixMenuHero {
+    background-image: url(../images/fix-menu-hero.jpg);
+    padding: 25%;
+    background-repeat: no-repeat;
+    background-size: 154%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: #303030;
+    line-height: 1.6em;
+}
+
+p a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1em;
+    color: #be5f27;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1em;
+    color: #d49b3c;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+.mainInfo {
+    background-color: #e0d7c5;    
+}
+
+
+article {
+    margin-right: 20%;
+    margin-left: 20%;
+    border-bottom-color: #f2f2f2;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1em;
+}
+
+.onBoth {
+    margin-right: 20%;
+    margin-left: 20%;
+    border: none;
+}
+
+.other {
+    display: none;
+}
+.cakeButtonOn {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #f2f2f2;
+    background-color: #d49b3c;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 0;
+    padding: 0.2em;
+    margin-left: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.otherButtonOn {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #f2f2f2;
+    background-color: #d49b3c;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 0;
+    padding: 0.2em;
+    margin-right: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.cakeButtonOff {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #d49b3c;
+    background-color: #f2f2f2;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 0;
+    padding: 0.2em;
+    margin-left: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.otherButtonOff {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.1em;
+    color: #d49b3c;
+    background-color: #f2f2f2;
+    text-align: center;
+    max-width: 242px;
+    margin-bottom: 0;
+    padding: 0.2em;
+    margin-right: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+}
+
+@media(min-width: 660px) {
+
+    .mainInfo {
+        
+        margin-right: 20%;
+        margin-left: 20%;
+        
+    }
+
+    /* .fixMenuHero {
+        padding: 16%;
+        background-repeat: no-repeat;
+        background-size: auto;
+    } */
+    
+}
+
+@media(min-width: 940px) {
+
+}
