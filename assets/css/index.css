@@ -1,5 +1,8 @@
-body {
+.background {
   background-image: url(../images/ExampleBackground.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   opacity: 50%;
 }
 
