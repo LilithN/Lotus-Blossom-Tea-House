@@ -41,8 +41,8 @@ nav p a:hover {
   font-weight: 200;
   font-style: italic;
   font-size: 1em;
-  color: #d49b3c;
-  border-bottom: 0.3em solid #d49b30;
+  color: #3a0d38;
+  border-bottom: 0.3em solid #3a0d38;
   padding-bottom: 0.3em;
   text-decoration: none;
 }
@@ -59,10 +59,10 @@ nav p a:hover {
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 2.1em;
-  color: #f2f2f2;
-  background-color: #d49b30;
+  color: #0f0e0e;
+  background-color: #c22222;
   text-align: center;
-  max-width: 242px;
+  max-width: 539px;
   margin: 0 auto;
 }
 
@@ -83,7 +83,7 @@ h2 a {
 h2 a:hover {
   font-family: 'Oswald', sans-serif;
   font-size: 1.56em;
-  color: #d49b30;
+  color: #3a0d38;
   font-style: italic;
   text-decoration: underline;
 }
@@ -91,14 +91,14 @@ h2 a:hover {
 h3 {
   font-family: 'Lato', sans-serif;
   font-size: 1.125em;
-  color: #8e5942;
+  color: #c22222;
   text-transform: uppercase;
 }
 
 h4 {
   font-family: 'Lato Light', sans-serif;
   font-size: 1.125em;
-  color: #8e5942;
+  color: #c22222;
   text-transform: uppercase;
 }
 
@@ -114,7 +114,7 @@ p a {
   font-weight: 200;
   font-style: italic;
   font-size: 1em;
-  color: #be5f27;
+  color: #c22222;
 }
 
 p a:hover {
@@ -122,7 +122,7 @@ p a:hover {
   font-weight: 200;
   font-style: italic;
   font-size: 1em;
-  color: #d49b3c;
+  color: #3a0d38;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -140,13 +140,13 @@ p a:hover {
 }
 
 .customorder p a:hover {
-  color: #be5f27;
+  color: #c22222;
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #be5f27;
+  background-color: #c22222;
   text-align: center;
   padding: 0.9375em;
 }
