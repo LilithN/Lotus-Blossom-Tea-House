@@ -4,10 +4,12 @@
   background-attachment: fixed;
   background-position: center;
   opacity: 50%;
+  
 }
 
 .abouthero {
   background-image: url(../images/Blue.png);
+  opacity: 0%;
 }
 
 .cakelove {
