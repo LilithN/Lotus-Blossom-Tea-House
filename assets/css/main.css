@@ -167,6 +167,8 @@ footer p {
 
 footer .logos {
   margin: 0.625em;
+  width: 9.0625em;
+  height: auto;
 }
 
 .logos img {
@@ -175,6 +177,7 @@ footer .logos {
 
 .fixlogo {
   width: 9.0625em;
+  height: auto;
   margin: auto;
 }
 
