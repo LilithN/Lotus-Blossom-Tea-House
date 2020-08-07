@@ -24,18 +24,18 @@
   background-attachment: fixed;
 }
 
-.abouthero {
-  background-image: url(../images/Blue.png);
+.heroImage {
+  background-image: url(../images/MainHeroImage.png);
 }
 
-.cakelove {
+.indexMain {
   background-color: #c22222;
   text-align: center;
   padding-bottom: 5px;
   padding-top: 10px;
 }
 
-.cakelovelist {
+.tags {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   color: #f2f2f2;
@@ -109,7 +109,7 @@ p span {
     display: flex;
     flex-direction: row-reverse;
   }
-  .cakelove {
+  .indexMain {
     width: 50%;
     padding-top: 50px;
     z-index: -1;

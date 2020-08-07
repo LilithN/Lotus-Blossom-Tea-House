@@ -47,7 +47,7 @@ nav p a:hover {
   text-decoration: none;
 }
 
-.abouthero {
+.heroImage {
   background-color: black;
   background-size: cover;
   height: 20.75em;
@@ -193,7 +193,7 @@ footer .logos {
   nav img {
     height: 5.125em;
   }
-  .abouthero {
+  .heroImage {
     height: 28.75em;
     margin-bottom: 0;
   }
@@ -214,7 +214,7 @@ footer .logos {
     margin-left: 15.625em;
     margin-right: 15.625em;
   }
-  .abouthero {
+  .heroImage {
     height: 55.75em;
   }
 }
