@@ -1,10 +1,37 @@
+.background {
+  position: relative;
+  overflow: hidden;
+}
+/* You could use :after - it doesn't really matter */
+.background:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+  background-image: url(../images/ExampleBackground.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .abouthero {
-  background-image: url(../images/fix-about-hero.jpg);
+  background-image: url(../images/Blue.png);
 }
 
 h3 {
   margin: 0.9375em;
 }
+
 
 h3 span {
   font-family: 'Lato Light', sans-serif;
@@ -31,9 +58,9 @@ p {
   text-decoration: underline;
 }
 
-.bakersplash {
-  background-color: #e0d7c5;
-}
+/*.bakersplash {
+  background-color: #0a0a0a;
+}*/
 
 .bakers {
   height: 15.375em;
@@ -56,6 +83,35 @@ p {
   text-align: right;
   margin: 0;
 }
+
+#riley img {
+  margin: 0;
+}
+
+.sponsorFlexContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  border-bottom-color: black;
+  border-bottom-width: 0.2em;
+  border-bottom-style: double;
+}
+
+.altSponsorFlexContainer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  justify-content: space-around;
+  border-bottom-color: black;
+  border-bottom-width: 0.2em;
+  border-bottom-style: double;
+}
+
+#noBorder{
+  border: none;
+}
+
 
 @media(min-width: 660px) {
   .abouthero {

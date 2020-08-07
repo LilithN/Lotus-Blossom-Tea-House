@@ -62,7 +62,8 @@ h1 {
   color: #0f0e0e;
   background-color: #c22222;
   text-align: center;
-  max-width: 539px;
+  /*max-width: 539px;*/
+  width: 100%;
   margin: 0 auto;
 }
 
