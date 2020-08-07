@@ -1,221 +1,59 @@
-body {
-  margin: 0;
+nav {
+  margin-top: 5em;
+}
+
+.navFlexContainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
-nav {
+.navLogo {
+  display: flex;
+  justify-content: center;
+  border-bottom-style: double;
+  border-bottom-width: 0.2em;
+  border-bottom-color: black;
+  margin-left: 13em;
+  margin-right: 13em;
+}
+
+.navLogoImg {
+  max-height: 5em;
+  width: auto;
+  margin-bottom: 2em;
+}
+
+.navLinks {
   display: flex;
   flex-direction: row;
-  position: fixed;
-  background-color: #f2f2f2;
-  opacity: 0.9;
-  width: 100%;
-  align-items: center;
   justify-content: center;
-  padding-top: 0.625em;
-  padding-bottom: 0.625em;
-  z-index: 2;
-}
-
-nav img {
-  height: 3.125em;
-}
-
-nav p a {
-  font-family: 'Lato', sans-serif;
-  font-size: 1em;
-  color: #303030;
-  margin: 0.375em;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
+  justify-content: space-evenly;
+  margin-left: 13em;
+  margin-right: 13em;
 }
 
 nav p {
-  margin: 3px;
+  text-align: center;
+  line-height: 2em;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.1em;
 }
 
-nav p a:hover {
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 1em;
-  color: #3a0d38;
-  border-bottom: 0.3em solid #3a0d38;
-  padding-bottom: 0.3em;
+a {
+  cursor: pointer;
   text-decoration: none;
 }
 
-.heroImage {
-  background-color: black;
-  background-size: cover;
-  height: 20.75em;
-  background-position: 50%;
-  margin: 0;
-  margin-bottom: -3.125em;
+a:hover{
+color: rgb(43, 226, 58);
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.1em;
-  color: #0f0e0e;
-  background-color: #c22222;
+  font-family: 'lato', sans-serif;
+  font-size: 2em;
   text-align: center;
-  /*max-width: 539px;*/
-  width: 100%;
-  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-h2 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.56em;
-  color: #f2f2f2;
-}
-
-h2 a {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.56em;
-  color: #f2f2f2;
-  font-style: italic;
-  text-decoration: underline;
-}
-
-h2 a:hover {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.56em;
-  color: #3a0d38;
-  font-style: italic;
-  text-decoration: underline;
-}
-
-h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.125em;
-  color: #c22222;
-  text-transform: uppercase;
-}
-
-h4 {
-  font-family: 'Lato Light', sans-serif;
-  font-size: 1.125em;
-  color: #c22222;
-  text-transform: uppercase;
-}
-
-p {
-  font-family: 'Lato', sans-serif;
-  font-size: 1em;
-  color: #303030;
-  line-height: 1.6em;
-}
-
-p a {
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 1em;
-  color: #c22222;
-}
-
-p a:hover {
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
-  font-style: italic;
-  font-size: 1em;
-  color: #3a0d38;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.customorder p {
-  color: #f2f2f2;
-  font-family: 'Oswald', sans-serif;
-}
-
-.customorder p a {
-  font-style: italic;
-  text-decoration: underline;
-  color: #f2f2f2;
-  font-size: 1.25em;
-}
-
-.customorder p a:hover {
-  color: #c22222;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  background-color: #c22222;
-  text-align: center;
-  padding: 0.9375em;
-}
-
-.address {
-  text-align: center;
-  margin: auto;
-  font-family: 'Oswald', sans-serif;
-  color: #f2f2f2;
-  font-size: .9em;
-}
-
-footer p {
-  font-family: 'Oswald', sans-serif;
-  font-size: .9em;
-  color: #f2f2f2;
-}
-
-footer .logos {
-  margin: 0.625em;
-  width: 9.0625em;
-  height: auto;
-}
-
-.logos img {
-  margin: 0.3125em;
-}
-
-.fixlogo {
-  width: 9.0625em;
-  height: auto;
-  margin: auto;
-}
-
-.contact {
-  margin: auto;
-}
-
-@media(min-width: 660px) {
-  nav p {
-    margin: 2.375em;
-  }
-  nav img {
-    height: 5.125em;
-  }
-  .heroImage {
-    height: 28.75em;
-    margin-bottom: 0;
-  }
-  footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  h1 {
-    margin-bottom: -50px;
-    overflow: visible;
-    z-index: 1;
-  }
-}
-
-@media(min-width: 940px) {
-  .maininfo {
-    margin-left: 15.625em;
-    margin-right: 15.625em;
-  }
-  .heroImage {
-    height: 55.75em;
-  }
-}
-/* insert comment here */
