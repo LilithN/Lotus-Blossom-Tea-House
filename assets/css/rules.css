@@ -1,0 +1,15 @@
+.rulesNav{
+background: grey;
+}
+
+.rulesFooter{
+    background: black;
+}
+
+.rulesFooter div{
+    background: none;
+}
+
+.rulesFooter p{
+color: white;
+}
