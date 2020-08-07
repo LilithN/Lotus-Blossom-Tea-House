@@ -1,3 +1,11 @@
+.aboutUs{
+  margin-left: 30em;
+  margin-right: 30em;
+  margin-bottom: 2em;
+}
+
+/*SLIDER CSS*/
+
 .csslider {
   -moz-perspective: 1300px;
   -ms-perspective: 1300px;
@@ -96,7 +104,7 @@
 
 .csslider>.navigation {
   position: absolute;
-  bottom: -8px;
+  bottom: -3%;
   left: 50%;
   z-index: 10;
   margin-bottom: -10px;
@@ -312,11 +320,6 @@ body {
   overflow-x: hidden;
   text-align: center;
 }
-
-body {
-  padding-bottom: 60px;
-}
-
 
 #slider1 {
   margin: 20px;
